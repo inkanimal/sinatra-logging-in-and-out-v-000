@@ -31,6 +31,7 @@ class ApplicationController < Sinatra::Base
   # end
   
    get '/account' do
+     if Helpers.
     erb :account
   end
 
